@@ -1,0 +1,19 @@
+{
+  "name": "saarthiev-live-location",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "server": "tsx server.ts",
+    "simulate": "tsx simulate.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.0",
+    "typescript": "^7.0.2"
+  }
+}
